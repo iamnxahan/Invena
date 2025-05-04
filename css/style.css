@@ -1,0 +1,228 @@
+/* All Common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+ul, ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+/* All Common CSS End */
+
+/* Top Header Part Strat */
+
+#topheader{
+    padding: 20px 0;
+    background: #20282D;
+}
+
+.topheadercontent{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.forhover:hover{
+    border-bottom: 1px solid white;
+    transition: 4s;
+}
+.tcontentleft a{
+    color: white;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+}
+.tcontentleft a i{
+    padding-right: 5px;
+}
+.tcontentleft a span{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.tcontentright ul{
+    display: flex;
+    column-gap: 10px;
+}
+.tcontentright ul li a{
+    color: white;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;   
+}
+.tcontentright ul li span{
+    color: white;
+    padding: 0 10px;
+}
+/* Top Header Part Strat */
+
+/* Header Part Strat */
+#headerpart{
+    padding: 25px 0;
+}
+.headerflex{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    padding-top: 10px;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    color: #1c2539;
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    margin: 0 25px;
+    line-height: 70px;
+}
+.iconbutton{
+    padding-top: 5px;
+}
+.iconbutton a{
+    background: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    color: #1c2539;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    margin-right: 15px;
+}
+.quote{
+    background: #1c2539 !important;
+    color: #f2f2f2 !important;
+}
+/* Header Part Strat */
+
+/* Banner Part Strat */
+#bannerpart{
+    padding-top: 280px;
+    padding-bottom: 270px;
+    background: url(../images/21.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bannercontent{
+    text-align: center;
+    color: white;
+}
+.bannercontent h4{
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: "DM Sans", sans-serif;
+}
+.bannercontent h4 span{
+    font-weight: 500;
+}
+.bannercontent h1{
+    font-size: 70px;
+    font-weight: 700;
+    font-family: "Red Hat Display", sans-serif;
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    line-height: 90px;
+}
+.bannercontent p{
+    width: 578px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+    line-height: 26px;
+}
+.bannercontent a{
+    margin-top: 30px;
+    padding: 25px 40px;
+    border-radius: 20px;
+    background: white;
+    color: #1c2539;
+}
+
+/* Banner Part Strat */
+
+/* About Part Strat */
+#aboutpart{
+    padding: 100px 0;
+}
+.aboutflex{
+    display: flex;
+    justify-content: space-between;
+}
+.aboutleft{
+    width: 50%;
+}
+.aboutleft img{
+    width: 100%;
+}
+.aboutright{
+    width: 40%;
+}
+.aboutright h4{
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+    padding-top: 85px;
+    padding-bottom: 42px;
+    letter-spacing: 2px;
+}
+.aboutright p{
+    font-size: 14px;
+    line-height: 26px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    color: #5d666f;
+    padding-top: 55px;
+}
+.aboutright h3{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Red Hat Display", sans-serif;
+    text-transform: capitalize;
+    padding-right: 30px;
+    line-height: 48px;
+    color: #1c2539;
+    width: 510px;
+}
+.aboutright ul{
+    padding-top: 50px;
+}
+.aboutright ul li i{
+    padding-right: 5px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.aboutright ul li{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #1c2539;
+    font-family: "DM Sans", sans-serif;
+}
+/* About Part Strat */
+
+/* Header Part Strat */
+/* Header Part Strat */
+
+/* Header Part Strat */
+/* Header Part Strat */
